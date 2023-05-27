@@ -24,7 +24,7 @@ List Of Our App Feature Have
 
 ## Installation
 
-Provide instructions on how to install and set up the project locally. For example:
+
 
 1. Clone the repository: (git clone https://github.com/aakarshpatel84/chabbi-typing-app.git)
 2. Navigate to the project directory:
