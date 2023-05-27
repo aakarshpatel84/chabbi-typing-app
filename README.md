@@ -32,7 +32,7 @@ Provide instructions on how to install and set up the project locally. For examp
 
 ## Usage
 
-Explain how to use your typing app. Provide any necessary instructions or guidelines. For example:
+First Clone repo then open your terminal go to the path of chabbi-typing-app then use these command given below
 
 1. Start the development server: (yarn start)
 2. Open your browser and visit `http://localhost:3000` to access the chabbi-typing-app.
