@@ -18,7 +18,6 @@ Include a link or embed a demo video/gif of your typing app in action.
 List out the main features of your typing app. For example:
 
 - Typing speed measurement
-- Accuracy calculation
 - Random word generation
 - Timer for timed typing sessions
 - User-friendly interface
