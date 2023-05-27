@@ -11,7 +11,7 @@ Welcome to the Typing App! This is a simple typing application built using React
 
 ## Demo
 
-Include a link or embed a demo video/gif of your typing app in action.
+[https://chaabi-typing-app.netlify.app/]
 
 ## Features
 
