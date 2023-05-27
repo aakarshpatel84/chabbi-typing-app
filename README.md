@@ -15,7 +15,7 @@ Welcome to the Typing App! This is a simple typing application built using React
 
 ## Features
 
-List Of Our App Feature Has
+List Of Our App Feature Have
 
 - Typing speed measurement
 - Random word generation
