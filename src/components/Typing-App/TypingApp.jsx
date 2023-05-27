@@ -16,20 +16,26 @@ function TypingApp() {
   const cloud = useRef(getCloud());
 
   const processInput = (value) => {
+    if (activeWordIndex === cloud.current.length) {
+      // stop
+      return;
+    }
+
     if (!startCounting) {
       setStartCounting(true);
     }
+
     if (value.endsWith(" ")) {
       // the user has finished the word
-      if (activeWordIndex === cloud.current.length - 1) {
+      if (activeWordIndex === cloud.current.length) {
         // overflow
         setStartCounting(false);
         setuserInput("Completed");
-        return;
+      } else {
+        setuserInput("");
       }
 
       setActiveWordIndex((index) => index + 1);
-      setuserInput("");
 
       // correct word
       setcorrectWordArr((data) => {
@@ -64,6 +70,7 @@ function TypingApp() {
         </p>
       </div>
       <input
+        placeholder="Start typing hare..."
         type="text"
         value={userInput}
         onChange={(e) => processInput(e.target.value)}

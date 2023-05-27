@@ -18,8 +18,8 @@ function Timer({ startCounting, correctWords }) {
   const minutes = timeElapsed / 60;
   return (
     <>
-      <div>Time:{timeElapsed}</div>
-      <div>Speed:{(correctWords / minutes || 0).toFixed(2)} WPM</div>
+      <div>Time: {timeElapsed}</div>
+      <div>Speed: {(correctWords / minutes || 0).toFixed(2)} (WPM)</div>
     </>
   );
 }
